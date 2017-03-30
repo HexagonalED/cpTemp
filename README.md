@@ -41,13 +41,13 @@ class Member{
 
 ### 1-3. 예제 입력 및 출력
 
-        Harry 37 Hogwarts
+        >Harry 37 Hogwarts
         Harry is 37 years old.
-        Viktor 41 Durmstrang
+        >Viktor 41 Durmstrang
         Viktor is 41 years old.
-        Fleur 40 Beauxbatons
+        >Fleur 40 Beauxbatons
         Fleur is 40 years old.
-        QUIT 0 QUIT
+        >QUIT 0 QUIT
         Harry : Hogwarts, 37 years old.
         Viktor : Durmstrang, 41 years old.
         Fleur : Beauxbatons, 40 years old.
