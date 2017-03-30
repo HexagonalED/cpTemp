@@ -58,9 +58,6 @@
         Harry : Hogwarts, 37 years old.
         Viktor : Durmstrang, 41 years old.
         Fleur : Beauxbatons, 40 years old.
-        Harry is no longer in Hogwarts.
-        Viktor is no longer in Durmstrang.
-        Fleur is no longer in Beauxbatons.
 
 
 ---
