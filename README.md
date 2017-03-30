@@ -6,19 +6,19 @@
 
 - 다음과 같은 구성을 지는 Member 클래스를 만들어라
 
-class Member{
-  private:
-    string name;
-    int age;
-    string department;
-  public:
-    Member(string name, int age, string department);
-    ~Member();
-    string getName();
-    int getAge();
-    string getDept();
-    void print();
-};
+        class Member{
+          private:
+            string name;
+            int age;
+            string department;
+          public:
+            Member(string name, int age, string department);
+            ~Member();
+            string getName();
+            int getAge();
+            string getDept();
+            void print();
+        };
 
 - 멤버들의 정보를 입력받고, 객체 생성,소멸시 문구가 뜨도록  만들어라
 - 멤버들의 정보는 vector를 이용하여 관리하라
@@ -40,6 +40,8 @@ class Member{
 
 
 ### 1-3. 예제 입력 및 출력
+
+- 입력 앞에 > 표시를 해두었다 (실제 구현에서는 하지 않는다)
 
         >Harry 37 Hogwarts
         Harry is 37 years old.
@@ -65,31 +67,31 @@ class Member{
 
 - Person클래스를 상속하는 클래스 Student를 만드시오.
 
-class Person{
-  private:
-      string name;
-      int age;
-      string gender;//Male or Female
-  public:
-      Person(...);
-      ~Person();
-      string getName();
-      int getAge();
-      string getGender();
-      void introduce();
-};
+        class Person{
+          private:
+              string name;
+              int age;
+              string gender;//Male or Female
+          public:
+              Person(...);
+              ~Person();
+              string getName();
+              int getAge();
+              string getGender();
+              void introduce();
+        };
 
 
 - void introduce() 함수는 다음처럼 Person 클래스의 인스턴스 내용을 인쇄하는 함수이다(대문자는 변수명)
 
-NAME is AGE years old, and is GENDER
+        NAME is AGE years old, and is GENDER
 
 - Student 클래스는 멤버 변수로 학교 이름을 추가로 담는다
 
 - Student의 void introduce() 함수는 다음처럼 Student 클래스의 인스턴스 내용을 인쇄하는 함수이다
 
-NAME is AGE years old, and is GENDER
-NAME is studying in SCHOOL
+        NAME is AGE years old, and is GENDER
+        NAME is studying in SCHOOL
 
 
 
@@ -110,20 +112,20 @@ NAME is studying in SCHOOL
 
 ### 2-3. 예제 입력
 
-3
-HyunIl 24 Male
-Byunghoon 24 Male
-Jiwoo 24 Female
-2
-Byunghoon dcslab
-Jiwoo dcslab
+        3
+        HyunIl 24 Male
+        Byunghoon 24 Male
+        Jiwoo 24 Female
+        2
+        Byunghoon dcslab
+        Jiwoo dcslab
 
 ### 2-4. 예제 출력
 
-HyunIl is 24 years old, and is Male
-Byunghoon is 24 years old, and is Male
-Byunghoon is studying in dcslab
-Jiwoo is 24 years old, and is Female
-Jiwoo is studying in dcslab
+        HyunIl is 24 years old, and is Male
+        Byunghoon is 24 years old, and is Male
+        Byunghoon is studying in dcslab
+        Jiwoo is 24 years old, and is Female
+        Jiwoo is studying in dcslab
 
 
