@@ -6,6 +6,7 @@
 
 - 다음과 같은 구성을 지는 Member 클래스를 만들어라
 
+```cpp
         class Member{
           private:
             string name;
@@ -19,6 +20,8 @@
             string getDept();
             void print();
         };
+```
+
 
 - 멤버들의 정보를 입력받고, 객체 생성,소멸시 문구가 뜨도록  만들어라
 - 멤버들의 정보는 vector를 이용하여 관리하라
@@ -66,6 +69,8 @@
 
 - Person클래스를 상속하는 클래스 Student를 만드시오.
 
+
+```cpp
         class Person{
           private:
               string name;
@@ -79,7 +84,7 @@
               string getGender();
               void introduce();
         };
-
+```
 
 - void introduce() 함수는 다음처럼 Person 클래스의 인스턴스 내용을 인쇄하는 함수이다(대문자는 변수명)
 

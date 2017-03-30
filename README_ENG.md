@@ -6,6 +6,8 @@
 
 - Create class 'Member' with the construction of
 
+
+```cpp
         class Member{
           private:
             string name;
@@ -19,6 +21,8 @@
             string getDept();
             void print();
         };
+```
+
 
 - Write your own code, that gets member information, can create or delete instance with message.
 - names of Member are not like each other
@@ -68,6 +72,7 @@
 
 - Create class Student that inherits Person class as below.
 
+```cpp
         class Person{
           private:
               string name;
@@ -81,6 +86,7 @@
               string getGender();
               void introduce();
         };
+```
 
 
 - Function void introduce() prints out the information of Person class
